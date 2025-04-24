@@ -1,0 +1,837 @@
+run_id,factory_name,factory_location,factory_type,date,base_production_capacity,adjusted_production_units,production_impact_factor,active_risks,lead_time_days,simulated_demand_units,shipped_units,inventory_level_units,shortage_units,safety_stock_level
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-01-05,10570,9733,1.0,none,36,6508,6508,79626,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-01-05,11550,11706,1.0,none,25,7784,7784,51417,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-01-05,17461,16730,1.0,none,17,9375,9375,93343,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-01-05,7430,7242,1.0,none,29,9233,9233,33337,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-01-12,10570,10318,1.0,none,35,5882,5882,84062,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-01-12,11550,11311,1.0,none,27,7599,7599,55129,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-01-12,17461,18401,1.0,none,19,11658,11658,100086,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-01-12,7430,7485,1.0,logistics_bottleneck (Active),69,7914,7914,32908,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-01-19,10570,10320,1.0,none,34,7974,7974,86408,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-01-19,11550,11619,1.0,none,25,8691,8691,58057,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-01-19,17461,14712,0.811,geopolitical_tension (Active),31,3889,3889,110909,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-01-19,7430,7609,1.0,logistics_bottleneck (Active),70,9701,9701,30816,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-01-26,10570,10607,1.0,none,35,7018,7018,89997,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-01-26,11550,11689,1.0,none,28,11006,11006,58740,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-01-26,17461,13429,0.811,geopolitical_tension (Active),28,9502,9502,114836,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-01-26,7430,7234,1.0,logistics_bottleneck (Recovery),32,7403,7403,30647,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-02-02,10570,10748,1.0,none,36,9464,9464,91281,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-02-02,11550,11669,1.0,none,29,8998,8998,61411,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-02-02,17461,14104,0.811,geopolitical_tension (Active),28,5606,5606,123334,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-02-02,7430,7108,1.0,none,31,8177,8177,29578,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-02-09,10570,7724,0.735,trade_restrictions (Active),71,8242,8242,90763,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-02-09,11550,11306,1.0,none,25,6142,6142,66575,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-02-09,17461,12170,0.664,"geopolitical_tension (Active), trade_restrictions (Active)",25,10953,10953,124551,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-02-09,7430,6202,0.837,geopolitical_tension (Active),54,6412,6412,29368,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-02-16,10570,7646,0.735,trade_restrictions (Active),66,8989,8989,89420,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-02-16,11550,11435,1.0,none,25,7784,7784,70226,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-02-16,17461,10924,0.664,"geopolitical_tension (Active), trade_restrictions (Active)",27,7228,7228,128247,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-02-16,7430,6460,0.837,geopolitical_tension (Active),56,6329,6329,29499,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-02-23,10570,7449,0.735,trade_restrictions (Active),65,7997,7997,88872,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-02-23,11550,8168,0.707,geopolitical_tension (Active),44,6250,6250,72144,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-02-23,17461,12499,0.664,"geopolitical_tension (Active), trade_restrictions (Active)",29,6965,6965,133781,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-02-23,7430,6322,0.837,geopolitical_tension (Active),50,7657,7657,28164,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-03-01,10570,7875,0.735,trade_restrictions (Active),64,5890,5890,90857,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-03-01,11550,8145,0.707,geopolitical_tension (Active),46,7741,7741,72548,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-03-01,17461,11799,0.664,"geopolitical_tension (Active), trade_restrictions (Active)",26,10596,10596,134984,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-03-01,7430,6204,0.837,geopolitical_tension (Active),57,4927,4927,29441,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-03-08,10570,6853,0.627,"geopolitical_tension (Active), trade_restrictions (Recovery)",59,7931,7931,89779,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-03-08,11550,7751,0.707,geopolitical_tension (Active),41,6886,6886,73413,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-03-08,17461,12397,0.742,"geopolitical_tension (Recovery), trade_restrictions (Active)",29,4771,4771,142610,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-03-08,7430,6595,0.918,geopolitical_tension (Recovery),30,4176,4176,31860,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-03-15,10570,7209,0.694,"geopolitical_tension (Active), trade_restrictions (Recovery)",57,6805,6805,90183,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-03-15,11550,8075,0.707,geopolitical_tension (Active),44,5255,5255,76233,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-03-15,17461,14111,0.819,"geopolitical_tension (Recovery), trade_restrictions (Active)",26,8264,8264,148457,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-03-15,7430,7876,1.0,geopolitical_tension (Recovery),29,5223,5223,34513,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-03-22,10570,8720,0.761,"geopolitical_tension (Active), trade_restrictions (Recovery)",58,9307,9307,89596,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-03-22,11550,7857,0.707,geopolitical_tension (Active),45,8171,8171,75919,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-03-22,17461,14385,0.819,trade_restrictions (Active),30,7917,7917,154925,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-03-22,7430,7641,1.0,none,31,5601,5601,36553,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-03-29,10570,7565,0.761,geopolitical_tension (Active),60,7353,7353,89808,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-03-29,11550,8073,0.707,geopolitical_tension (Active),45,5225,5225,78767,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-03-29,17461,14066,0.819,trade_restrictions (Active),26,10078,10078,158913,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-03-29,7430,7902,1.0,none,32,6335,6335,38120,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-04-05,10570,8854,0.761,geopolitical_tension (Active),60,5878,5878,92784,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-04-05,11550,7448,0.707,geopolitical_tension (Active),45,9220,9220,76995,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-04-05,17461,14463,0.819,trade_restrictions (Active),23,6299,6299,167077,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-04-05,7430,6994,1.0,none,33,8485,8485,36629,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-04-12,10570,9146,0.881,geopolitical_tension (Recovery),31,11090,11090,90840,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-04-12,11550,9922,0.853,geopolitical_tension (Recovery),25,7151,7151,79766,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-04-12,17461,15172,0.819,trade_restrictions (Active),26,6625,6625,175624,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-04-12,7430,7469,1.0,none,31,10010,10010,34088,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-04-19,10570,10772,1.0,geopolitical_tension (Recovery),30,9428,9428,92184,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-04-19,11550,11461,1.0,geopolitical_tension (Recovery),24,10019,10019,81208,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-04-19,17461,15086,0.879,trade_restrictions (Recovery),14,8989,8989,181721,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-04-19,7430,7111,1.0,none,31,7444,7444,33755,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-04-26,10570,9977,1.0,none,35,8110,8110,94051,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-04-26,11550,11998,1.0,none,26,7040,7040,86166,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-04-26,17461,16292,0.94,trade_restrictions (Recovery),15,7776,7776,190237,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-04-26,7430,7150,1.0,none,32,7260,7260,33645,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-05-03,10570,10293,1.0,none,35,7210,7210,97134,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-05-03,11550,9451,0.777,trade_restrictions (Active),48,8484,8484,87133,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-05-03,17461,18222,1.0,trade_restrictions (Recovery),14,7405,7405,201054,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-05-03,7430,7555,1.0,none,30,9244,9244,31956,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-05-10,10570,10695,1.0,none,32,7967,7967,99862,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-05-10,11550,3479,0.291,"natural_disaster (Active), trade_restrictions (Active)",52,8592,8592,82020,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-05-10,17461,17038,1.0,none,17,9387,9387,208705,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-05-10,7430,6647,1.0,none,29,9465,9465,29138,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-05-17,10570,10778,1.0,none,31,8472,8472,102168,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-05-17,11550,3148,0.291,"natural_disaster (Active), trade_restrictions (Active)",49,8847,8847,76321,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-05-17,17461,16889,1.0,none,17,6263,6263,219331,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-05-17,7430,5737,0.729,geopolitical_tension (Active),42,7403,7403,27472,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-05-24,10570,10642,1.0,none,37,8654,8654,104156,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-05-24,11550,2823,0.241,"natural_disaster (Active), trade_restrictions (Active)",48,4368,4368,74776,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-05-24,17461,16293,1.0,none,16,9141,9141,226483,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-05-24,7430,5566,0.729,geopolitical_tension (Active),43,7688,7688,25350,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-05-31,10570,10120,1.0,none,38,8263,8263,106013,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-05-31,11550,2643,0.241,"natural_disaster (Active), trade_restrictions (Active)",52,6271,6271,71148,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-05-31,17461,3098,0.173,natural_disaster (Active),66,5224,5224,224357,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-05-31,7430,5166,0.729,geopolitical_tension (Active),42,8498,8498,22018,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-06-07,10570,10052,1.0,none,32,7100,7100,108965,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-06-07,11550,2513,0.219,"natural_disaster (Recovery), trade_restrictions (Active)",50,6209,6209,67452,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-06-07,17461,3105,0.173,natural_disaster (Active),65,7863,7863,219599,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-06-07,7430,6203,0.865,geopolitical_tension (Recovery),34,5915,5915,22306,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-06-14,10570,10948,1.0,none,32,8930,8930,110983,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-06-14,11550,3265,0.274,"natural_disaster (Recovery), trade_restrictions (Active)",48,9967,9967,60750,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-06-14,17461,2854,0.173,natural_disaster (Active),62,10324,10324,212129,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-06-14,7430,7347,1.0,geopolitical_tension (Recovery),30,7274,7274,22379,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-06-21,10570,2911,0.248,cyber_attack (Active),40,5930,5930,107964,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-06-21,11550,3854,0.328,"natural_disaster (Recovery), trade_restrictions (Active)",52,8996,8996,55608,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-06-21,17461,3108,0.173,natural_disaster (Active),65,7821,7821,207416,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-06-21,7430,7281,1.0,none,31,6135,6135,23525,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-06-28,10570,2503,0.248,cyber_attack (Active),37,6171,6171,104296,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-06-28,11550,3092,0.271,"geopolitical_tension (Active), natural_disaster (Recovery), trade_restrictions (Active)",50,5930,5930,52770,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-06-28,17461,6062,0.338,natural_disaster (Recovery),13,6628,6628,206850,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-06-28,7430,7544,1.0,none,31,8273,8273,22796,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-07-05,10570,5777,0.548,"cyber_attack (Recovery), geopolitical_tension (Active)",45,8531,8531,101542,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-07-05,11550,4479,0.358,"geopolitical_tension (Active), natural_disaster (Recovery), trade_restrictions (Active), trade_restrictions (Recovery)",47,6936,6936,50313,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-07-05,17461,5704,0.328,"natural_disaster (Recovery), trade_restrictions (Active)",29,7340,7340,205214,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-07-05,7430,7424,1.0,none,32,9275,9275,20945,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-07-12,10570,9663,0.878,"cyber_attack (Recovery), geopolitical_tension (Active)",42,7279,7279,103926,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-07-12,11550,5347,0.445,"geopolitical_tension (Active), trade_restrictions (Active), trade_restrictions (Recovery)",39,6666,6666,48994,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-07-12,17461,7676,0.436,"natural_disaster (Recovery), trade_restrictions (Active)",25,7439,7439,205451,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-07-12,7430,7533,1.0,none,30,6971,6971,21507,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-07-19,10570,7273,0.637,"geopolitical_tension (Recovery), trade_restrictions (Active)",46,10472,10472,100727,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-07-19,11550,7505,0.653,"geopolitical_tension (Recovery), trade_restrictions (Active), trade_restrictions (Recovery)",38,6334,6334,50165,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-07-19,17461,9337,0.544,"natural_disaster (Recovery), trade_restrictions (Active)",32,6207,6207,208581,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-07-19,7430,6919,1.0,logistics_bottleneck (Active),59,4823,4823,23603,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-07-26,10570,6939,0.678,"geopolitical_tension (Recovery), trade_restrictions (Active)",45,9153,9153,98513,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-07-26,11550,9257,0.826,"geopolitical_tension (Recovery), trade_restrictions (Active), trade_restrictions (Recovery)",36,7932,7932,51490,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-07-26,17461,11819,0.652,"natural_disaster (Recovery), trade_restrictions (Active)",27,7555,7555,212845,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-07-26,7430,7355,1.0,logistics_bottleneck (Active),56,5539,5539,25419,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-08-02,10570,6992,0.678,trade_restrictions (Active),45,5089,5089,100416,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-08-02,11550,9802,0.884,trade_restrictions (Recovery),24,5892,5892,55400,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-08-02,17461,11186,0.652,trade_restrictions (Active),28,9680,9680,214351,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-08-02,7430,3879,0.506,"logistics_bottleneck (Active), pandemic_closure (Active)",80,8167,8167,21131,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-08-09,10570,7213,0.678,trade_restrictions (Active),42,6847,6847,100782,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-08-09,11550,11215,0.942,trade_restrictions (Recovery),26,6680,6680,59935,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-08-09,17461,14091,0.768,trade_restrictions (Recovery),14,5180,5180,223262,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-08-09,7430,3643,0.506,"logistics_bottleneck (Active), pandemic_closure (Active)",75,6880,6880,17894,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-08-16,10570,6827,0.678,trade_restrictions (Active),46,9086,9086,98523,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-08-16,11550,11637,1.0,trade_restrictions (Recovery),27,9266,9266,62306,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-08-16,17461,15466,0.884,trade_restrictions (Recovery),18,5941,5941,232787,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-08-16,7430,3762,0.506,"logistics_bottleneck (Recovery), pandemic_closure (Active)",79,8653,8653,13003,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-08-23,10570,6930,0.678,trade_restrictions (Active),41,6866,6866,98587,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-08-23,11550,11756,1.0,none,22,6628,6628,67434,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-08-23,17461,17483,1.0,trade_restrictions (Recovery),13,4847,4847,245423,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-08-23,7430,3705,0.506,pandemic_closure (Active),75,7375,7375,9333,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-08-30,10570,358,0.033,"natural_disaster (Active), trade_restrictions (Active)",90,7914,7914,91031,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-08-30,11550,11122,1.0,none,22,6316,6316,72240,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-08-30,17461,17219,1.0,none,18,10705,10705,251937,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-08-30,7430,3707,0.506,pandemic_closure (Active),80,8469,8469,4571,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-09-06,10570,416,0.038,"natural_disaster (Active), trade_restrictions (Active), trade_restrictions (Recovery)",90,7595,7595,83852,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-09-06,11550,7541,0.715,geopolitical_tension (Active),33,9548,9548,70233,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-09-06,17461,16848,1.0,none,19,6616,6616,262169,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-09-06,7430,3684,0.506,pandemic_closure (Active),78,6405,6405,1850,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-09-13,10570,1596,0.15,"natural_disaster (Recovery), trade_restrictions (Active), trade_restrictions (Recovery)",44,9480,9480,75968,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-09-13,11550,8207,0.715,geopolitical_tension (Active),31,9611,9611,68829,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-09-13,17461,17507,1.0,none,19,5982,5982,273694,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-09-13,7430,3717,0.506,pandemic_closure (Active),77,4388,4388,1179,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-09-20,10570,3505,0.34,"natural_disaster (Recovery), trade_restrictions (Recovery)",32,11307,11307,68166,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-09-20,11550,8462,0.715,geopolitical_tension (Active),30,6647,6647,70644,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-09-20,17461,18656,1.0,none,16,4380,4380,287970,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-09-20,7430,3886,0.506,pandemic_closure (Active),78,5451,5065,0,386,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-09-27,10570,6404,0.555,"natural_disaster (Recovery), trade_restrictions (Recovery)",34,8496,8496,66074,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-09-27,11550,10172,0.857,geopolitical_tension (Recovery),27,4653,4653,76163,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-09-27,17461,17318,1.0,none,17,12573,12573,292715,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-09-27,7430,3651,0.506,pandemic_closure (Active),78,7412,3651,0,3761,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-10-04,10570,8754,0.815,"natural_disaster (Recovery), trade_restrictions (Recovery)",34,5437,5437,69391,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-10-04,11550,11605,1.0,"geopolitical_tension (Recovery), logistics_bottleneck (Active)",63,7540,7540,80228,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-10-04,17461,16977,1.0,none,16,4482,4482,305210,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-10-04,7430,4593,0.629,pandemic_closure (Recovery),30,9055,4593,0,4462,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-10-11,10570,9368,0.891,"geopolitical_tension (Active), natural_disaster (Recovery)",61,5144,5144,73615,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-10-11,11550,11549,1.0,logistics_bottleneck (Active),58,8415,8415,83362,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-10-11,17461,16942,1.0,none,16,5779,5779,316373,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-10-11,7430,5802,0.753,pandemic_closure (Recovery),37,6267,5802,0,465,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-10-18,10570,9636,0.891,geopolitical_tension (Active),65,9006,9006,74245,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-10-18,11550,11094,1.0,logistics_bottleneck (Active),60,5967,5967,88489,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-10-18,17461,16214,1.0,none,17,6592,6592,325995,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-10-18,7430,6523,0.877,pandemic_closure (Recovery),30,7943,6523,0,1420,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-10-25,10570,9969,0.946,geopolitical_tension (Recovery),38,10296,10296,73918,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-10-25,11550,2838,0.251,"logistics_bottleneck (Recovery), pandemic_closure (Active)",52,7387,7387,83940,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-10-25,17461,16347,1.0,none,16,5883,5883,336459,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-10-25,7430,7619,1.0,pandemic_closure (Recovery),33,3692,3692,3927,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-11-01,10570,9953,1.0,geopolitical_tension (Recovery),38,6050,6050,77821,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-11-01,11550,2862,0.251,pandemic_closure (Active),48,5742,5742,81060,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-11-01,17461,17401,1.0,none,18,6359,6359,347501,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-11-01,7430,7371,1.0,none,33,6866,6866,4432,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-11-08,10570,11328,1.0,none,31,7520,7520,81629,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-11-08,11550,2919,0.251,pandemic_closure (Active),50,6921,6921,77058,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-11-08,17461,18349,1.0,none,19,8980,8980,356870,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-11-08,7430,7620,1.0,none,31,6092,6092,5960,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-11-15,10570,9900,1.0,none,33,8341,8341,83188,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-11-15,11550,3048,0.251,pandemic_closure (Active),54,9608,9608,70498,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-11-15,17461,17914,1.0,none,19,8327,8327,366457,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-11-15,7430,7570,1.0,none,29,7072,7072,6458,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-11-22,10570,10324,1.0,none,34,7121,7121,86391,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-11-22,11550,2808,0.251,pandemic_closure (Active),51,5024,5024,68282,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-11-22,17461,17840,1.0,none,15,7194,7194,377103,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-11-22,7430,7492,1.0,none,31,10951,10951,2999,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-11-29,10570,11104,1.0,none,34,6665,6665,90830,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-11-29,11550,2980,0.251,pandemic_closure (Active),51,6466,6466,64796,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-11-29,17461,18802,1.0,none,20,7366,7366,388539,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-11-29,7430,7923,1.0,none,29,11831,10922,0,909,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-12-06,10570,10913,1.0,none,35,7341,7341,94402,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-12-06,11550,2914,0.251,pandemic_closure (Active),49,7185,7185,60525,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-12-06,17461,16011,1.0,none,16,8726,8726,395824,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-12-06,7430,6863,1.0,none,29,8789,6863,0,1926,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-12-13,10570,11087,1.0,none,32,8376,8376,97113,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-12-13,11550,5162,0.438,pandemic_closure (Recovery),24,7452,7452,58235,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-12-13,17461,17398,1.0,none,18,8052,8052,405170,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-12-13,7430,7338,1.0,none,34,5275,5275,2063,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-12-20,10570,10204,1.0,none,33,7752,7752,99565,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-12-20,11550,5560,0.524,"geopolitical_tension (Active), pandemic_closure (Recovery)",40,8099,8099,55696,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-12-20,17461,17776,1.0,none,17,9040,9040,413906,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-12-20,7430,8097,1.0,none,29,10717,10160,0,557,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2020-12-27,10570,9701,1.0,none,34,8400,8400,100866,0,7640
+run_018,IDM_USA_B,USA,IDM,2020-12-27,11550,1692,0.148,"geopolitical_tension (Active), pandemic_closure (Active), pandemic_closure (Recovery)",67,7369,7369,50019,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2020-12-27,17461,16300,1.0,none,15,8623,8623,421583,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2020-12-27,7430,7370,1.0,none,34,4027,4027,3343,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-01-03,10570,10682,1.0,none,32,5899,5899,105649,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-01-03,11550,2066,0.183,"geopolitical_tension (Active), pandemic_closure (Active), pandemic_closure (Recovery)",65,7857,7857,44228,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-01-03,17461,17172,1.0,none,13,11536,11536,427219,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-01-03,7430,7377,1.0,none,34,6580,6580,4140,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-01-10,10570,11945,1.0,none,35,4420,4420,113174,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-01-10,11550,2192,0.183,"geopolitical_tension (Active), pandemic_closure (Active)",66,7042,7042,39378,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-01-10,17461,17034,1.0,none,17,7458,7458,436795,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-01-10,7430,7095,1.0,none,28,6532,6532,4703,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-01-17,10570,10743,1.0,none,31,7273,7273,116644,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-01-17,11550,2242,0.183,"geopolitical_tension (Active), pandemic_closure (Active)",68,8642,8642,32978,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-01-17,17461,16347,1.0,none,18,4847,4847,448295,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-01-17,7430,7401,1.0,none,33,11564,11564,540,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-01-24,10570,10811,1.0,none,34,7569,7569,119886,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-01-24,11550,2280,0.2,"geopolitical_tension (Recovery), pandemic_closure (Active)",65,6184,6184,29074,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-01-24,17461,4951,0.286,pandemic_closure (Active),28,8124,8124,445122,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-01-24,7430,7718,1.0,none,35,9391,8258,0,1133,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-01-31,10570,9955,1.0,none,34,7944,7944,121897,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-01-31,11550,2494,0.218,"geopolitical_tension (Recovery), pandemic_closure (Active)",60,6867,6867,24701,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-01-31,17461,5325,0.286,pandemic_closure (Active),31,6334,6334,444113,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-01-31,7430,7027,1.0,none,29,7763,7027,0,736,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-02-07,10570,10698,1.0,none,32,10382,10382,122213,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-02-07,11550,2448,0.218,pandemic_closure (Active),63,8361,8361,18788,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-02-07,17461,4875,0.286,pandemic_closure (Active),31,6902,6902,442086,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-02-07,7430,7740,1.0,none,31,10647,7740,0,2907,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-02-14,10570,931,0.089,natural_disaster (Active),90,6826,6826,116318,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-02-14,11550,2485,0.218,pandemic_closure (Active),63,8581,8581,12692,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-02-14,17461,5061,0.286,pandemic_closure (Active),31,5602,5602,441545,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-02-14,7430,7815,1.0,none,30,6733,6733,1082,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-02-21,10570,897,0.089,natural_disaster (Active),90,4372,4372,112843,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-02-21,11550,2472,0.218,pandemic_closure (Active),63,8049,8049,7115,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-02-21,17461,5260,0.286,pandemic_closure (Active),27,7875,7875,438930,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-02-21,7430,7259,1.0,none,32,8872,8341,0,531,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-02-28,10570,890,0.089,natural_disaster (Active),90,5302,5302,108431,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-02-28,11550,4846,0.413,pandemic_closure (Recovery),24,11783,11783,178,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-02-28,17461,4785,0.286,pandemic_closure (Active),32,6900,6900,436815,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-02-28,7430,7824,1.0,none,31,7789,7789,35,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-03-07,10570,950,0.089,natural_disaster (Active),90,6181,6181,103200,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-03-07,11550,7257,0.609,pandemic_closure (Recovery),24,6223,6223,1212,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-03-07,17461,3122,0.174,"pandemic_closure (Active), trade_restrictions (Active)",29,6630,6630,433307,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-03-07,7430,7352,1.0,none,29,8372,7387,0,985,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-03-14,10570,2572,0.271,natural_disaster (Recovery),35,7172,7172,98600,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-03-14,11550,9178,0.804,pandemic_closure (Recovery),28,9368,9368,1022,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-03-14,17461,3104,0.174,"pandemic_closure (Active), trade_restrictions (Active)",32,5933,5933,430478,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-03-14,7430,7423,1.0,none,32,7378,7378,45,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-03-21,10570,4759,0.453,natural_disaster (Recovery),35,10526,10526,92833,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-03-21,11550,11740,1.0,pandemic_closure (Recovery),24,5222,5222,7540,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-03-21,17461,3209,0.174,"pandemic_closure (Active), trade_restrictions (Active)",28,6766,6766,426921,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-03-21,7430,7332,1.0,none,36,3999,3999,3378,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-03-28,10570,6869,0.636,natural_disaster (Recovery),33,6415,6415,93287,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-03-28,11550,12158,1.0,none,29,10347,10347,9351,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-03-28,17461,3132,0.174,"pandemic_closure (Active), trade_restrictions (Active)",32,10896,10896,419157,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-03-28,7430,6944,1.0,none,34,9059,9059,1263,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-04-04,10570,9277,0.818,natural_disaster (Recovery),35,7259,7259,95305,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-04-04,11550,12079,1.0,none,24,12504,12504,8926,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-04-04,17461,3066,0.174,"pandemic_closure (Active), trade_restrictions (Active)",30,7312,7312,414911,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-04-04,7430,7320,1.0,none,30,9675,8583,0,1092,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-04-11,10570,11229,1.0,natural_disaster (Recovery),32,9890,9890,96644,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-04-11,11550,12349,1.0,none,24,5788,5788,15487,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-04-11,17461,3050,0.174,"pandemic_closure (Active), trade_restrictions (Active)",31,5707,5707,412254,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-04-11,7430,7168,1.0,none,29,6990,6990,178,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-04-18,10570,12123,1.0,none,35,6140,6140,102627,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-04-18,11550,10741,1.0,none,26,8273,8273,17955,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-04-18,17461,4547,0.282,"pandemic_closure (Recovery), trade_restrictions (Active)",32,8353,8353,408448,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-04-18,7430,5768,0.761,geopolitical_tension (Active),57,9709,5946,0,3763,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-04-25,10570,10102,1.0,none,34,9116,9116,103613,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-04-25,11550,12173,1.0,none,25,6840,6840,23288,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-04-25,17461,8475,0.475,"pandemic_closure (Recovery), trade_restrictions (Recovery)",15,9859,9859,407064,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-04-25,7430,5770,0.761,geopolitical_tension (Active),55,5704,5704,66,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-05-02,10570,8573,0.803,trade_restrictions (Active),46,5051,5051,107135,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-05-02,11550,11582,1.0,none,26,8344,8344,26526,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-05-02,17461,12455,0.714,"pandemic_closure (Recovery), trade_restrictions (Recovery)",19,7417,7417,412102,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-05-02,7430,5437,0.761,geopolitical_tension (Active),57,8108,5503,0,2605,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-05-09,10570,8994,0.803,trade_restrictions (Active),44,8895,8895,107234,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-05-09,11550,11926,1.0,none,25,7431,7431,31021,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-05-09,17461,17768,1.0,"pandemic_closure (Recovery), trade_restrictions (Recovery)",17,5952,5952,423918,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-05-09,7430,6332,0.761,geopolitical_tension (Active),57,5316,5316,1016,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-05-16,10570,8854,0.803,trade_restrictions (Active),49,10228,10228,105860,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-05-16,11550,11132,1.0,none,26,11624,11624,30529,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-05-16,17461,17951,1.0,none,19,8438,8438,433431,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-05-16,7430,5433,0.761,geopolitical_tension (Active),54,5053,5053,1396,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-05-23,10570,8137,0.803,trade_restrictions (Active),49,4812,4812,109185,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-05-23,11550,11557,1.0,none,22,8442,8442,33644,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-05-23,17461,17412,1.0,none,18,3690,3690,447153,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-05-23,7430,5932,0.881,geopolitical_tension (Recovery),34,6290,6290,1038,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-05-30,10570,7920,0.803,trade_restrictions (Active),54,6196,6196,110909,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-05-30,11550,11343,1.0,none,25,7545,7545,37442,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-05-30,17461,18198,1.0,none,14,9922,9922,455429,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-05-30,7430,7382,1.0,geopolitical_tension (Recovery),33,8374,8374,46,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-06-06,10570,8918,0.803,trade_restrictions (Active),48,7413,7413,112414,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-06-06,11550,11817,1.0,none,26,7598,7598,41661,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-06-06,17461,17568,1.0,none,14,5445,5445,467552,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-06-06,7430,2427,0.327,pandemic_closure (Active),70,4932,2473,0,2459,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-06-13,10570,9695,0.869,trade_restrictions (Recovery),33,7869,7869,114240,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-06-13,11550,9092,0.776,trade_restrictions (Active),49,6304,6304,44449,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-06-13,17461,17348,1.0,none,17,5702,5702,479198,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-06-13,7430,2430,0.327,"logistics_bottleneck (Active), pandemic_closure (Active)",72,7013,2430,0,4583,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-06-20,10570,9566,0.934,trade_restrictions (Recovery),33,11030,11030,112776,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-06-20,11550,8751,0.776,"logistics_bottleneck (Active), trade_restrictions (Active)",58,8349,8349,44851,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-06-20,17461,16782,1.0,logistics_bottleneck (Active),29,8680,8680,487300,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-06-20,7430,2484,0.327,"logistics_bottleneck (Active), pandemic_closure (Active)",72,6549,2484,0,4065,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-06-27,10570,10446,1.0,trade_restrictions (Recovery),33,11283,11283,111939,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-06-27,11550,9126,0.776,"logistics_bottleneck (Recovery), trade_restrictions (Active)",51,7525,7525,46452,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-06-27,17461,16600,1.0,logistics_bottleneck (Active),27,6959,6959,496941,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-06-27,7430,2632,0.327,"logistics_bottleneck (Active), pandemic_closure (Active)",69,7788,2632,0,5156,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-07-04,10570,10746,1.0,none,37,9060,9060,113625,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-07-04,11550,8695,0.776,trade_restrictions (Active),53,7020,7020,48127,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-07-04,17461,17536,1.0,logistics_bottleneck (Active),29,4623,4623,509854,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-07-04,7430,3629,0.495,"logistics_bottleneck (Active), pandemic_closure (Recovery)",51,10948,3629,0,7319,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-07-11,10570,10945,1.0,none,33,7288,7288,117282,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-07-11,11550,8738,0.776,trade_restrictions (Active),49,6319,6319,50546,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-07-11,17461,17410,1.0,logistics_bottleneck (Active),28,6641,6641,520623,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-07-11,7430,5205,0.663,"logistics_bottleneck (Recovery), pandemic_closure (Recovery)",30,6083,5205,0,878,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-07-18,10570,11521,1.0,none,35,10291,10291,118512,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-07-18,11550,9075,0.776,trade_restrictions (Active),52,5782,5782,53839,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-07-18,17461,17770,1.0,logistics_bottleneck (Recovery),15,10157,10157,528236,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-07-18,7430,6362,0.832,pandemic_closure (Recovery),28,7228,6362,0,866,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-07-25,10570,10557,1.0,none,35,9071,9071,119998,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-07-25,11550,4512,0.403,"pandemic_closure (Active), trade_restrictions (Active)",74,5768,5768,52583,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-07-25,17461,17754,1.0,none,15,8272,8272,537718,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-07-25,7430,7510,1.0,pandemic_closure (Recovery),29,9462,7510,0,1952,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-08-01,10570,11315,1.0,none,30,4082,4082,127231,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-08-01,11550,4769,0.403,"pandemic_closure (Active), trade_restrictions (Active)",71,8694,8694,48658,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-08-01,17461,16933,1.0,none,16,7321,7321,547330,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-08-01,7430,8465,1.0,none,32,8074,8074,391,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-08-08,10570,7301,0.652,trade_restrictions (Active),42,6280,6280,128252,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-08-08,11550,4425,0.403,"pandemic_closure (Active), trade_restrictions (Active)",72,9288,9288,43795,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-08-08,17461,18193,1.0,none,14,10477,10477,555046,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-08-08,7430,7304,1.0,logistics_bottleneck (Active),62,4572,4572,3123,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-08-15,10570,7519,0.652,trade_restrictions (Active),46,7159,7159,128612,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-08-15,11550,4675,0.403,"pandemic_closure (Active), trade_restrictions (Active)",73,8332,8332,40138,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-08-15,17461,17898,1.0,none,18,7820,7820,565124,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-08-15,7430,7584,1.0,logistics_bottleneck (Active),67,10223,10223,484,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-08-22,10570,7168,0.652,trade_restrictions (Active),44,6111,6111,129669,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-08-22,11550,5241,0.441,"pandemic_closure (Active), trade_restrictions (Recovery)",71,7283,7283,38096,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-08-22,17461,18958,1.0,logistics_bottleneck (Active),27,7889,7889,576193,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-08-22,7430,7107,1.0,logistics_bottleneck (Active),63,6810,6810,781,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-08-29,10570,7033,0.652,trade_restrictions (Active),43,9475,9475,127227,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-08-29,11550,5317,0.48,"pandemic_closure (Active), trade_restrictions (Recovery)",73,6543,6543,36870,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-08-29,17461,17861,1.0,logistics_bottleneck (Active),26,7539,7539,586515,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-08-29,7430,7105,1.0,logistics_bottleneck (Active),64,9051,7886,0,1165,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-09-05,10570,7121,0.652,trade_restrictions (Active),43,7503,7503,126845,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-09-05,11550,6290,0.519,"pandemic_closure (Active), trade_restrictions (Recovery)",74,5205,5205,37955,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-09-05,17461,18068,1.0,logistics_bottleneck (Active),32,5564,5564,599019,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-09-05,7430,7241,1.0,logistics_bottleneck (Recovery),32,5207,5207,2034,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-09-12,10570,3207,0.31,"natural_disaster (Active), trade_restrictions (Active)",78,7728,7728,122324,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-09-12,11550,6121,0.519,pandemic_closure (Active),73,6765,6765,37311,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-09-12,17461,16210,1.0,logistics_bottleneck (Active),27,7555,7555,607674,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-09-12,7430,6990,1.0,none,32,7516,7516,1508,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-09-19,10570,3307,0.31,"natural_disaster (Active), trade_restrictions (Active)",84,4664,4664,120967,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-09-19,11550,5251,0.431,"geopolitical_tension (Active), pandemic_closure (Active)",70,8724,8724,33838,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-09-19,17461,17749,1.0,logistics_bottleneck (Recovery),14,9800,9800,615623,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-09-19,7430,7563,1.0,none,33,8938,8938,133,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-09-26,10570,3215,0.31,"natural_disaster (Active), trade_restrictions (Active)",83,6834,6834,117348,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-09-26,11550,4843,0.431,"geopolitical_tension (Active), pandemic_closure (Active)",74,4813,4813,33868,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-09-26,17461,16489,1.0,logistics_bottleneck (Active),31,7238,7238,624874,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-09-26,7430,7093,1.0,none,33,5021,5021,2205,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-10-03,10570,3811,0.365,"natural_disaster (Active), trade_restrictions (Recovery)",82,6826,6826,114333,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-10-03,11550,6404,0.585,"geopolitical_tension (Recovery), pandemic_closure (Recovery)",26,11150,11150,29122,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-10-03,17461,17735,1.0,logistics_bottleneck (Active),28,10197,10197,632412,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-10-03,7430,7611,1.0,none,32,5489,5489,4327,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-10-10,10570,4232,0.42,"natural_disaster (Active), trade_restrictions (Recovery)",85,8070,8070,110495,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-10-10,11550,8761,0.76,"geopolitical_tension (Recovery), pandemic_closure (Recovery)",26,5913,5913,31970,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-10-10,17461,16726,1.0,logistics_bottleneck (Active),26,9264,9264,639874,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-10-10,7430,7268,1.0,none,30,5861,5861,5734,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-10-17,10570,4768,0.475,"natural_disaster (Active), trade_restrictions (Recovery)",84,5603,5603,109660,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-10-17,11550,10645,0.88,pandemic_closure (Recovery),24,9451,9451,33164,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-10-17,17461,16946,1.0,logistics_bottleneck (Recovery),17,7129,7129,649691,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-10-17,7430,5186,0.706,geopolitical_tension (Active),51,7648,7648,3272,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-10-24,10570,6320,0.58,natural_disaster (Recovery),33,5504,5504,110476,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-10-24,11550,11826,1.0,pandemic_closure (Recovery),27,9750,9750,35240,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-10-24,17461,17169,1.0,none,17,7171,7171,659689,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-10-24,7430,4889,0.706,geopolitical_tension (Active),49,8674,8161,0,513,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-10-31,10570,6996,0.685,natural_disaster (Recovery),36,4912,4912,112560,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-10-31,11550,11970,1.0,none,23,6275,6275,40935,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-10-31,17461,16327,1.0,none,16,5066,5066,670950,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-10-31,7430,5686,0.853,geopolitical_tension (Recovery),34,11240,5686,0,5554,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-11-07,10570,8401,0.79,natural_disaster (Recovery),33,6971,6971,113990,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-11-07,11550,11040,1.0,none,27,11593,11593,40382,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-11-07,17461,16981,1.0,none,18,8484,8484,679447,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-11-07,7430,6909,1.0,geopolitical_tension (Recovery),30,8449,6909,0,1540,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-11-14,10570,9524,0.895,natural_disaster (Recovery),34,5137,5137,118377,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-11-14,11550,11423,1.0,none,23,9446,9446,42359,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-11-14,17461,17751,1.0,none,18,9633,9633,687565,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-11-14,7430,7596,1.0,none,33,4239,4239,3357,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-11-21,10570,10800,1.0,natural_disaster (Recovery),34,7991,7991,121186,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-11-21,11550,11465,1.0,none,28,7899,7899,45925,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-11-21,17461,8632,0.494,pandemic_closure (Active),34,9360,9360,686837,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-11-21,7430,7118,1.0,logistics_bottleneck (Active),50,8237,8237,2238,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-11-28,10570,10213,1.0,none,34,7630,7630,123769,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-11-28,11550,11746,1.0,none,29,7592,7592,50079,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-11-28,17461,8783,0.494,pandemic_closure (Active),33,4982,4982,690638,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-11-28,7430,7350,1.0,logistics_bottleneck (Active),48,9108,9108,480,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-12-05,10570,11199,1.0,none,37,9141,9141,125827,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-12-05,11550,12118,1.0,none,25,8947,8947,53250,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-12-05,17461,8355,0.494,pandemic_closure (Active),33,8784,8784,690209,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-12-05,7430,7304,1.0,logistics_bottleneck (Active),51,7507,7507,277,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-12-12,10570,10467,1.0,none,31,5646,5646,130648,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-12-12,11550,11605,1.0,none,22,7016,7016,57839,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-12-12,17461,8881,0.494,pandemic_closure (Active),35,8402,8402,690688,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-12-12,7430,7755,1.0,logistics_bottleneck (Recovery),32,7048,7048,984,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-12-19,10570,7804,0.714,trade_restrictions (Active),60,5355,5355,133097,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-12-19,11550,11309,1.0,none,22,4977,4977,64171,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-12-19,17461,8925,0.494,pandemic_closure (Active),37,5999,5999,693614,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-12-19,7430,6797,1.0,none,34,10498,7781,0,2717,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2021-12-26,10570,7240,0.714,trade_restrictions (Active),55,6039,6039,134298,0,7640
+run_018,IDM_USA_B,USA,IDM,2021-12-26,11550,11573,1.0,none,29,4935,4935,70809,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2021-12-26,17461,8472,0.494,pandemic_closure (Active),31,5538,5538,696548,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2021-12-26,7430,7726,1.0,none,31,8010,7726,0,284,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-01-02,10570,7274,0.714,trade_restrictions (Active),58,6724,6724,134848,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-01-02,11550,10915,1.0,none,27,6372,6372,75352,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-01-02,17461,8626,0.494,pandemic_closure (Active),35,8733,8733,696441,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-01-02,7430,7197,1.0,none,34,6843,6843,354,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-01-09,10570,7905,0.714,trade_restrictions (Active),58,6970,6970,135783,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-01-09,11550,11467,1.0,none,23,12658,12658,74161,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-01-09,17461,8939,0.494,pandemic_closure (Active),35,6134,6134,699246,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-01-09,7430,7133,1.0,none,30,6564,6564,923,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-01-16,10570,7436,0.714,trade_restrictions (Active),58,6701,6701,136518,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-01-16,11550,11275,1.0,none,26,8869,8869,76567,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-01-16,17461,8734,0.494,pandemic_closure (Active),35,5835,5835,702145,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-01-16,7430,7406,1.0,none,35,7744,7744,585,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-01-23,10570,7617,0.714,trade_restrictions (Active),54,7991,7991,136144,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-01-23,11550,11568,1.0,none,24,9040,9040,79095,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-01-23,17461,8798,0.494,pandemic_closure (Active),32,11852,11852,699091,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-01-23,7430,7228,1.0,none,33,8004,7813,0,191,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-01-30,10570,3117,0.271,"pandemic_closure (Active), trade_restrictions (Active)",90,6372,6372,132889,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-01-30,11550,11423,1.0,none,28,8594,8594,81924,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-01-30,17461,8088,0.494,pandemic_closure (Active),35,12236,12236,694943,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-01-30,7430,7137,1.0,none,28,5500,5500,1637,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-02-06,10570,2855,0.271,"pandemic_closure (Active), trade_restrictions (Active)",90,6093,6093,129651,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-02-06,11550,11181,1.0,none,26,6565,6565,86540,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-02-06,17461,8543,0.494,pandemic_closure (Active),29,8892,8892,694594,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-02-06,7430,7439,1.0,none,33,10263,9076,0,1187,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-02-13,10570,2880,0.271,"pandemic_closure (Active), trade_restrictions (Active)",90,8567,8567,123964,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-02-13,11550,11694,1.0,none,28,8458,8458,89776,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-02-13,17461,10246,0.621,pandemic_closure (Recovery),13,10072,10072,694768,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-02-13,7430,7608,1.0,none,28,7538,7538,70,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-02-20,10570,3326,0.308,"pandemic_closure (Active), trade_restrictions (Recovery)",90,8287,8287,119003,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-02-20,11550,11705,1.0,none,28,8394,8394,93087,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-02-20,17461,12318,0.747,pandemic_closure (Recovery),19,7944,7944,699142,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-02-20,7430,7928,1.0,none,28,5284,5284,2714,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-02-27,10570,4761,0.484,"pandemic_closure (Recovery), trade_restrictions (Recovery)",32,7952,7952,115812,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-02-27,11550,11585,1.0,none,26,7300,7300,97372,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-02-27,17461,15771,0.873,pandemic_closure (Recovery),18,6031,6031,708882,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-02-27,7430,7617,1.0,none,31,9816,9816,515,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-03-06,10570,7149,0.69,"pandemic_closure (Recovery), trade_restrictions (Recovery)",33,5392,5392,117569,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-03-06,11550,11725,1.0,none,27,8830,8830,100267,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-03-06,17461,16318,1.0,pandemic_closure (Recovery),17,4922,4922,720278,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-03-06,7430,6799,1.0,none,31,10005,7314,0,2691,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-03-13,10570,9014,0.845,pandemic_closure (Recovery),32,6410,6410,120173,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-03-13,11550,11789,1.0,none,25,7099,7099,104957,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-03-13,17461,17643,1.0,none,18,6967,6967,730954,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-03-13,7430,7893,1.0,none,31,8947,7893,0,1054,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-03-20,10570,10102,1.0,"logistics_bottleneck (Active), pandemic_closure (Recovery)",64,5120,5120,125155,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-03-20,11550,8130,0.724,"geopolitical_tension (Active), logistics_bottleneck (Active)",50,6424,6424,106663,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-03-20,17461,16628,1.0,none,15,10902,10902,736680,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-03-20,7430,8049,1.0,none,31,7075,7075,974,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-03-27,10570,10176,1.0,logistics_bottleneck (Active),67,7131,7131,128200,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-03-27,11550,8066,0.724,"geopolitical_tension (Active), logistics_bottleneck (Recovery)",47,5129,5129,109600,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-03-27,17461,17522,1.0,none,17,8752,8752,745450,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-03-27,7430,6810,1.0,none,32,8332,7784,0,548,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-04-03,10570,11094,1.0,logistics_bottleneck (Active),65,7221,7221,132073,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-04-03,11550,8420,0.724,geopolitical_tension (Active),44,6917,6917,111103,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-04-03,17461,15839,1.0,none,16,5234,5234,756055,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-04-03,7430,4220,0.602,trade_restrictions (Active),62,6441,4220,0,2221,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-04-10,10570,10124,1.0,logistics_bottleneck (Active),65,10375,10375,131822,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-04-10,11550,9478,0.862,geopolitical_tension (Recovery),26,6694,6694,113887,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-04-10,17461,17943,1.0,none,19,7374,7374,766624,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-04-10,7430,4670,0.602,trade_restrictions (Active),64,6152,4670,0,1482,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-04-17,10570,9854,1.0,logistics_bottleneck (Recovery),33,10107,10107,131569,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-04-17,11550,11109,1.0,geopolitical_tension (Recovery),29,9312,9312,115684,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-04-17,17461,16166,1.0,none,20,9716,9716,773074,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-04-17,7430,4545,0.602,trade_restrictions (Active),65,9083,4545,0,4538,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-04-24,10570,10724,1.0,none,33,6502,6502,135791,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-04-24,11550,11650,1.0,none,30,8927,8927,118407,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-04-24,17461,17659,1.0,none,18,5864,5864,784869,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-04-24,7430,5048,0.602,"logistics_bottleneck (Active), trade_restrictions (Active)",72,4731,4731,317,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-05-01,10570,10036,1.0,none,35,9341,9341,136486,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-05-01,11550,11716,1.0,none,26,5193,5193,124930,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-05-01,17461,17174,1.0,none,19,7504,7504,794539,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-05-01,7430,5575,0.735,"logistics_bottleneck (Recovery), trade_restrictions (Recovery)",32,5955,5892,0,63,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-05-08,10570,10321,1.0,none,32,5455,5455,141352,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-05-08,11550,3678,0.331,cyber_attack (Active),39,9471,9471,119137,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-05-08,17461,17154,1.0,none,17,3737,3737,807956,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-05-08,7430,6540,0.867,trade_restrictions (Recovery),30,6358,6358,182,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-05-15,10570,10804,1.0,none,31,9918,9918,142238,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-05-15,11550,3843,0.331,"cyber_attack (Active), logistics_bottleneck (Active)",42,8921,8921,114059,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-05-15,17461,18055,1.0,none,15,7041,7041,818970,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-05-15,7430,7856,1.0,trade_restrictions (Recovery),33,8749,8038,0,711,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-05-22,10570,10537,1.0,none,37,4333,4333,148442,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-05-22,11550,2517,0.224,"cyber_attack (Active), logistics_bottleneck (Recovery), trade_restrictions (Active)",46,9340,9340,107236,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-05-22,17461,13060,0.738,trade_restrictions (Active),23,10065,10065,821965,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-05-22,7430,7077,1.0,none,29,9483,7077,0,2406,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-05-29,10570,11107,1.0,none,35,6929,6929,152620,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-05-29,11550,5324,0.451,"cyber_attack (Recovery), trade_restrictions (Active)",45,8680,8680,103880,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-05-29,17461,12240,0.738,trade_restrictions (Active),27,3274,3274,830931,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-05-29,7430,7337,1.0,none,29,6993,6993,344,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-06-05,10570,10796,1.0,none,31,7187,7187,156229,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-06-05,11550,6003,0.533,"cyber_attack (Recovery), trade_restrictions (Active)",45,9790,9790,100093,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-06-05,17461,12703,0.738,trade_restrictions (Active),26,5180,5180,838454,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-06-05,7430,7284,1.0,none,31,8020,7628,0,392,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-06-12,10570,10994,1.0,none,32,6717,6717,160506,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-06-12,11550,5999,0.533,trade_restrictions (Active),42,9016,9016,97076,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-06-12,17461,12226,0.738,trade_restrictions (Active),26,6078,6078,844602,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-06-12,7430,7778,1.0,none,28,7319,7319,459,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-06-19,10570,10453,1.0,none,34,6441,6441,164518,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-06-19,11550,6480,0.533,trade_restrictions (Active),46,7517,7517,96039,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-06-19,17461,13277,0.738,trade_restrictions (Active),24,9190,9190,848689,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-06-19,7430,7125,1.0,none,33,8676,7584,0,1092,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-06-26,10570,11307,1.0,none,34,5891,5891,169934,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-06-26,11550,2776,0.245,"pandemic_closure (Active), trade_restrictions (Active)",56,6752,6752,92063,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-06-26,17461,13122,0.738,trade_restrictions (Active),24,5360,5360,856451,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-06-26,7430,7098,1.0,none,32,8937,7098,0,1839,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-07-03,10570,11097,1.0,none,36,5090,5090,175941,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-07-03,11550,2890,0.245,"pandemic_closure (Active), trade_restrictions (Active)",58,5653,5653,89300,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-07-03,17461,13379,0.738,trade_restrictions (Active),20,5712,5712,864118,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-07-03,7430,7160,1.0,none,31,5227,5227,1933,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-07-10,10570,7626,0.785,trade_restrictions (Active),42,7660,7660,175907,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-07-10,11550,3071,0.267,"pandemic_closure (Active), trade_restrictions (Active), trade_restrictions (Recovery)",59,6737,6737,85634,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-07-10,17461,12800,0.738,trade_restrictions (Active),25,4270,4270,872648,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-07-10,7430,7089,1.0,none,31,5842,5842,3180,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-07-17,10570,7688,0.785,trade_restrictions (Active),42,5205,5205,178390,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-07-17,11550,3415,0.299,"geopolitical_tension (Active), pandemic_closure (Active), trade_restrictions (Recovery)",54,7666,7666,81383,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-07-17,17461,13415,0.825,trade_restrictions (Recovery),15,10471,10471,875592,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-07-17,7430,6220,0.84,trade_restrictions (Active),54,10889,9400,0,1489,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-07-24,10570,8154,0.785,trade_restrictions (Active),47,6749,6749,179795,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-07-24,11550,4232,0.365,"geopolitical_tension (Active), pandemic_closure (Active), trade_restrictions (Recovery)",53,10635,10635,74980,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-07-24,17461,17071,0.913,trade_restrictions (Recovery),17,7203,7203,885460,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-07-24,7430,6417,0.84,trade_restrictions (Active),55,10068,6417,0,3651,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-07-31,10570,9554,0.857,trade_restrictions (Recovery),37,8707,8707,180642,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-07-31,11550,4549,0.409,"geopolitical_tension (Active), pandemic_closure (Active), trade_restrictions (Recovery)",53,9141,9141,70388,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-07-31,17461,16304,1.0,trade_restrictions (Recovery),16,5803,5803,895961,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-07-31,7430,6185,0.84,trade_restrictions (Active),55,8625,6185,0,2440,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-08-07,10570,10833,0.928,trade_restrictions (Recovery),36,11013,11013,180462,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-08-07,11550,4641,0.409,"geopolitical_tension (Active), pandemic_closure (Active)",54,9510,9510,65519,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-08-07,17461,17422,1.0,none,14,4936,4936,908447,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-08-07,7430,6523,0.84,trade_restrictions (Active),53,10521,6523,0,3998,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-08-14,10570,7021,0.65,"trade_restrictions (Active), trade_restrictions (Recovery)",58,5850,5850,181633,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-08-14,11550,5130,0.434,"geopolitical_tension (Recovery), pandemic_closure (Active)",55,7917,7917,62732,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-08-14,17461,17324,1.0,none,14,7170,7170,918601,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-08-14,7430,6365,0.84,trade_restrictions (Active),58,7086,6365,0,721,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-08-21,10570,7669,0.65,trade_restrictions (Active),57,4983,4983,184319,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-08-21,11550,5255,0.459,"geopolitical_tension (Recovery), pandemic_closure (Active)",56,5758,5758,62229,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-08-21,17461,17983,1.0,none,19,7372,7372,929212,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-08-21,7430,6840,0.84,trade_restrictions (Active),53,8156,6840,0,1316,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-08-28,10570,7356,0.65,trade_restrictions (Active),56,8878,8878,182797,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-08-28,11550,4981,0.459,pandemic_closure (Active),53,10169,10169,57041,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-08-28,17461,17796,1.0,none,16,7999,7999,939009,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-08-28,7430,6565,0.84,trade_restrictions (Active),53,10430,6565,0,3865,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-09-04,10570,6619,0.65,trade_restrictions (Active),55,8842,8842,180574,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-09-04,11550,7019,0.594,pandemic_closure (Recovery),26,8676,8676,55384,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-09-04,17461,17316,1.0,none,14,6035,6035,950290,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-09-04,7430,6413,0.893,trade_restrictions (Recovery),30,4143,4143,2270,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-09-11,10570,6854,0.65,trade_restrictions (Active),56,7575,7575,179853,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-09-11,11550,8427,0.73,pandemic_closure (Recovery),27,9123,9123,54688,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-09-11,17461,16761,1.0,none,18,7451,7451,959600,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-09-11,7430,7308,0.947,trade_restrictions (Recovery),31,9323,9323,255,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-09-18,10570,7960,0.767,trade_restrictions (Recovery),34,9667,9667,178146,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-09-18,11550,9861,0.865,pandemic_closure (Recovery),26,7452,7452,57097,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-09-18,17461,17552,1.0,none,17,7591,7591,969561,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-09-18,7430,7329,1.0,trade_restrictions (Recovery),30,7693,7584,0,109,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-09-25,10570,8850,0.883,trade_restrictions (Recovery),33,7886,7886,179110,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-09-25,11550,12080,1.0,pandemic_closure (Recovery),24,7298,7298,61879,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-09-25,17461,17506,1.0,none,17,9076,9076,977991,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-09-25,7430,7313,1.0,none,30,5018,5018,2295,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-10-02,10570,10402,1.0,trade_restrictions (Recovery),34,7477,7477,182035,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-10-02,11550,11461,1.0,logistics_bottleneck (Active),63,8589,8589,64751,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-10-02,17461,18087,1.0,none,16,9094,9094,986984,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-10-02,7430,7627,1.0,none,30,8754,8754,1168,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-10-09,10570,10071,1.0,none,34,11440,11440,180666,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-10-09,11550,11617,1.0,logistics_bottleneck (Active),61,7604,7604,68764,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-10-09,17461,17574,1.0,none,18,7740,7740,996818,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-10-09,7430,7736,1.0,none,31,9079,8904,0,175,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-10-16,10570,10611,1.0,none,34,10262,10262,181015,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-10-16,11550,11113,1.0,logistics_bottleneck (Active),56,9198,9198,70679,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-10-16,17461,16826,1.0,none,19,6648,6648,1006996,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-10-16,7430,7849,1.0,none,28,6999,6999,850,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-10-23,10570,10959,1.0,none,33,9540,9540,182434,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-10-23,11550,11402,1.0,logistics_bottleneck (Recovery),25,6007,6007,76074,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-10-23,17461,17294,1.0,none,14,7034,7034,1017256,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-10-23,7430,6642,1.0,none,32,9277,7492,0,1785,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-10-30,10570,10268,1.0,none,32,4917,4917,187785,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-10-30,11550,11645,1.0,none,28,4014,4014,83705,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-10-30,17461,16231,1.0,none,16,7797,7797,1025690,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-10-30,7430,7155,1.0,none,32,6081,6081,1074,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-11-06,10570,10863,1.0,none,33,9677,9677,188971,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-11-06,11550,11117,1.0,none,23,5161,5161,89661,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-11-06,17461,17069,1.0,none,14,8930,8930,1033829,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-11-06,7430,6813,1.0,none,33,7212,7212,675,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-11-13,10570,10977,1.0,none,36,7676,7676,192272,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-11-13,11550,11467,1.0,none,27,6593,6593,94535,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-11-13,17461,18344,1.0,none,19,10378,10378,1041795,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-11-13,7430,7515,1.0,logistics_bottleneck (Active),47,5309,5309,2881,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-11-20,10570,7854,0.756,trade_restrictions (Active),50,10890,10890,189236,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-11-20,11550,12324,1.0,none,26,5198,5198,101661,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-11-20,17461,17922,1.0,none,14,8943,8943,1050774,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-11-20,7430,6918,1.0,logistics_bottleneck (Active),49,7211,7211,2588,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-11-27,10570,7957,0.756,trade_restrictions (Active),48,7105,7105,190088,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-11-27,11550,11995,1.0,none,25,5050,5050,108606,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-11-27,17461,17503,1.0,none,17,9763,9763,1058514,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-11-27,7430,7941,1.0,logistics_bottleneck (Recovery),34,5971,5971,4558,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-12-04,10570,8707,0.756,trade_restrictions (Active),51,6717,6717,192078,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-12-04,11550,11902,1.0,none,28,3942,3942,116566,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-12-04,17461,17762,1.0,none,11,5959,5959,1070317,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-12-04,7430,7448,1.0,none,33,9255,9255,2751,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-12-11,10570,8465,0.756,trade_restrictions (Active),49,5407,5407,195136,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-12-11,11550,12232,1.0,none,26,5762,5762,123036,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-12-11,17461,17332,1.0,none,19,8877,8877,1078772,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-12-11,7430,6847,1.0,none,34,4444,4444,5154,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-12-18,10570,7871,0.756,trade_restrictions (Active),49,6759,6759,196248,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-12-18,11550,11730,1.0,none,27,6891,6891,127875,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-12-18,17461,18381,1.0,none,16,10268,10268,1086885,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-12-18,7430,7400,1.0,none,31,6030,6030,6524,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2022-12-25,10570,8159,0.756,trade_restrictions (Active),48,6780,6780,197627,0,7640
+run_018,IDM_USA_B,USA,IDM,2022-12-25,11550,10778,1.0,none,26,7729,7729,130924,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2022-12-25,17461,18772,1.0,none,18,6398,6398,1099259,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2022-12-25,7430,7311,1.0,none,31,6423,6423,7412,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-01-01,10570,8312,0.837,trade_restrictions (Recovery),33,6245,6245,199694,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-01-01,11550,11559,1.0,none,24,7313,7313,135170,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-01-01,17461,16798,1.0,none,16,8601,8601,1107456,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-01-01,7430,7577,1.0,none,32,9653,9653,5336,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-01-08,10570,7685,0.764,"trade_restrictions (Active), trade_restrictions (Recovery)",67,6862,6862,200517,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-01-08,11550,10916,1.0,none,25,6379,6379,139707,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-01-08,17461,17643,1.0,none,15,8817,8817,1116282,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-01-08,7430,6959,1.0,none,32,11017,11017,1278,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-01-15,10570,7823,0.832,"trade_restrictions (Active), trade_restrictions (Recovery)",64,10635,10635,197705,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-01-15,11550,11474,1.0,none,29,6415,6415,144766,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-01-15,17461,17765,1.0,none,14,10163,10163,1123884,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-01-15,7430,7434,1.0,none,31,5892,5892,2820,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-01-22,10570,8140,0.832,trade_restrictions (Active),62,8238,8238,197607,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-01-22,11550,11014,1.0,none,22,4921,4921,150859,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-01-22,17461,17872,1.0,none,14,7250,7250,1134506,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-01-22,7430,7534,1.0,none,31,9291,9291,1063,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-01-29,10570,8982,0.832,trade_restrictions (Active),62,5059,5059,201530,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-01-29,11550,11453,1.0,none,25,8366,8366,153946,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-01-29,17461,17191,1.0,none,16,7890,7890,1143807,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-01-29,7430,7365,1.0,none,32,9346,8428,0,918,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-02-05,10570,9351,0.832,trade_restrictions (Active),62,8581,8581,202300,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-02-05,11550,7065,0.623,trade_restrictions (Active),32,2260,2260,158751,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-02-05,17461,18261,1.0,none,16,10330,10330,1151738,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-02-05,7430,7328,1.0,none,32,6622,6622,706,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-02-12,10570,7773,0.832,trade_restrictions (Active),68,9370,9370,200703,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-02-12,11550,6992,0.623,trade_restrictions (Active),35,6366,6366,159377,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-02-12,17461,17323,1.0,none,21,7082,7082,1161979,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-02-12,7430,7249,1.0,none,30,3167,3167,4788,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-02-19,10570,8036,0.832,trade_restrictions (Active),62,6774,6774,201965,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-02-19,11550,7594,0.623,trade_restrictions (Active),30,10211,10211,156760,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-02-19,17461,17992,1.0,none,19,7376,7376,1172595,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-02-19,7430,7515,1.0,none,31,5964,5964,6339,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-02-26,10570,9489,0.888,trade_restrictions (Recovery),31,7784,7784,203670,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-02-26,11550,7287,0.623,trade_restrictions (Active),31,7407,7407,156640,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-02-26,17461,17209,1.0,none,17,4988,4988,1184816,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-02-26,7430,7014,1.0,logistics_bottleneck (Active),60,6763,6763,6590,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-03-05,10570,10548,0.944,trade_restrictions (Recovery),33,6293,6293,207925,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-03-05,11550,7174,0.623,trade_restrictions (Active),37,8717,8717,155097,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-03-05,17461,16780,1.0,none,15,8557,8557,1193039,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-03-05,7430,7216,1.0,logistics_bottleneck (Active),56,6848,6848,6958,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-03-12,10570,10445,1.0,trade_restrictions (Recovery),31,7319,7319,211051,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-03-12,11550,8667,0.749,trade_restrictions (Recovery),29,7264,7264,156500,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-03-12,17461,17276,1.0,none,17,11363,11363,1198952,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-03-12,7430,7651,1.0,logistics_bottleneck (Recovery),30,9025,9025,5584,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-03-19,10570,10166,1.0,none,30,6360,6360,214857,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-03-19,11550,10799,0.874,trade_restrictions (Recovery),26,7568,7568,159731,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-03-19,17461,18007,1.0,none,16,5986,5986,1210973,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-03-19,7430,7635,1.0,none,31,6359,6359,6860,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-03-26,10570,10877,1.0,none,32,4544,4544,221190,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-03-26,11550,10845,1.0,trade_restrictions (Recovery),23,5813,5813,164763,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-03-26,17461,17783,1.0,none,18,8332,8332,1220424,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-03-26,7430,7534,1.0,none,29,6694,6694,7700,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-04-02,10570,9973,1.0,none,32,5909,5909,225254,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-04-02,11550,10886,1.0,none,28,8648,8648,167001,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-04-02,17461,16879,1.0,none,14,4206,4206,1233097,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-04-02,7430,7529,1.0,none,28,3359,3359,11870,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-04-09,10570,9795,1.0,none,34,6869,6869,228180,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-04-09,11550,11384,1.0,none,24,5679,5679,172706,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-04-09,17461,17143,1.0,none,17,5951,5951,1244289,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-04-09,7430,7942,1.0,none,33,9364,9364,10448,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-04-16,10570,10508,1.0,none,34,7952,7952,230736,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-04-16,11550,10739,1.0,none,25,8794,8794,174651,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-04-16,17461,17562,1.0,none,17,6821,6821,1255030,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-04-16,7430,7405,1.0,none,30,6239,6239,11614,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-04-23,10570,9993,1.0,none,32,6607,6607,234122,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-04-23,11550,11896,1.0,none,25,7512,7512,179035,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-04-23,17461,16701,1.0,none,14,4597,4597,1267134,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-04-23,7430,6638,1.0,logistics_bottleneck (Active),67,6639,6639,11613,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-04-30,10570,10112,1.0,none,35,10850,10850,233384,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-04-30,11550,11905,1.0,none,27,7710,7710,183230,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-04-30,17461,18089,1.0,none,16,8368,8368,1276855,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-04-30,7430,7120,1.0,logistics_bottleneck (Active),70,7746,7746,10987,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-05-07,10570,6966,0.642,natural_disaster (Active),90,10241,10241,230109,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-05-07,11550,11461,1.0,none,22,7309,7309,187382,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-05-07,17461,17927,1.0,none,16,4997,4997,1289785,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-05-07,7430,7075,1.0,logistics_bottleneck (Active),66,10201,10201,7861,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-05-14,10570,7973,0.714,natural_disaster (Recovery),31,8732,8732,229350,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-05-14,11550,11575,1.0,none,25,7810,7810,191147,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-05-14,17461,4297,0.262,pandemic_closure (Active),34,9283,9283,1284799,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-05-14,7430,7482,1.0,logistics_bottleneck (Recovery),33,4635,4635,10708,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-05-21,10570,6661,0.634,"natural_disaster (Recovery), trade_restrictions (Active)",54,5863,5863,230148,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-05-21,11550,11104,1.0,none,24,7569,7569,194682,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-05-21,17461,4440,0.262,pandemic_closure (Active),35,9849,9849,1279390,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-05-21,7430,7814,1.0,none,31,9384,9384,9138,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-05-28,10570,7257,0.691,"natural_disaster (Recovery), trade_restrictions (Active)",58,12412,12412,224993,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-05-28,11550,11923,1.0,none,28,7731,7731,198874,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-05-28,17461,4915,0.262,pandemic_closure (Active),34,6429,6429,1277876,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-05-28,7430,7771,1.0,none,31,6089,6089,10820,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-06-04,10570,7799,0.749,"logistics_bottleneck (Active), natural_disaster (Recovery), trade_restrictions (Active)",55,8966,8966,223826,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-06-04,11550,12050,1.0,none,22,8466,8466,202458,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-06-04,17461,4671,0.262,pandemic_closure (Active),33,9862,9862,1272685,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-06-04,7430,7561,1.0,none,33,10799,10799,7582,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-06-11,10570,8363,0.807,"logistics_bottleneck (Active), natural_disaster (Recovery), trade_restrictions (Active)",56,7425,7425,224764,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-06-11,11550,11754,1.0,none,24,5034,5034,209178,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-06-11,17461,7187,0.447,pandemic_closure (Recovery),17,5795,5795,1274077,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-06-11,7430,7631,1.0,none,33,7603,7603,7610,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-06-18,10570,8398,0.807,"logistics_bottleneck (Active), trade_restrictions (Active)",54,6756,6756,226406,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-06-18,11550,10713,1.0,none,28,5689,5689,214202,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-06-18,17461,10047,0.631,pandemic_closure (Recovery),14,10386,10386,1273738,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-06-18,7430,7430,1.0,none,31,4354,4354,10686,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-06-25,10570,7966,0.807,"logistics_bottleneck (Recovery), trade_restrictions (Active)",57,7233,7233,227139,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-06-25,11550,11219,1.0,none,26,9522,9522,215899,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-06-25,17461,4739,0.265,"pandemic_closure (Active), pandemic_closure (Recovery)",39,11161,11161,1267316,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-06-25,7430,7963,1.0,none,28,7614,7614,11035,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-07-02,10570,1380,0.126,"natural_disaster (Active), trade_restrictions (Active)",84,4860,4860,223659,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-07-02,11550,10664,1.0,none,22,7654,7654,218909,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-07-02,17461,6222,0.325,"pandemic_closure (Active), pandemic_closure (Recovery)",42,8484,8484,1265054,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-07-02,7430,7685,1.0,none,32,9704,9704,9016,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-07-09,10570,1508,0.136,"natural_disaster (Active), trade_restrictions (Recovery)",83,7919,7919,217248,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-07-09,11550,11388,1.0,none,26,6800,6800,223497,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-07-09,17461,5124,0.325,pandemic_closure (Active),39,8622,8622,1261556,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-07-09,7430,7586,1.0,none,28,5004,5004,11598,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-07-16,10570,1427,0.146,"natural_disaster (Active), trade_restrictions (Recovery)",88,8452,8452,210223,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-07-16,11550,11562,1.0,none,27,6837,6837,228222,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-07-16,17461,5717,0.325,pandemic_closure (Active),40,6998,6998,1260275,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-07-16,7430,7494,1.0,none,31,4862,4862,14230,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-07-23,10570,1589,0.156,"natural_disaster (Active), trade_restrictions (Recovery)",84,6201,6201,205611,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-07-23,11550,11237,1.0,none,26,13278,13278,226181,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-07-23,17461,5916,0.325,pandemic_closure (Active),40,8596,8596,1257595,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-07-23,7430,7858,1.0,none,31,7593,7593,14495,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-07-30,10570,1602,0.156,natural_disaster (Active),84,9612,9612,197601,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-07-30,11550,11538,1.0,none,25,5679,5679,232040,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-07-30,17461,5845,0.325,pandemic_closure (Active),38,7419,7419,1256021,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-07-30,7430,7298,1.0,none,32,6444,6444,15349,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-08-06,10570,1614,0.156,natural_disaster (Active),87,6095,6095,193120,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-08-06,11550,11976,1.0,none,25,10783,10783,233233,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-08-06,17461,5351,0.325,pandemic_closure (Active),39,7133,7133,1254239,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-08-06,7430,6937,1.0,none,29,6203,6203,16083,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-08-13,10570,3247,0.325,natural_disaster (Recovery),35,7786,7786,188581,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-08-13,11550,11956,1.0,none,22,7143,7143,238046,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-08-13,17461,8073,0.494,pandemic_closure (Recovery),19,4832,4832,1257480,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-08-13,7430,8043,1.0,none,30,3934,3934,20192,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-08-20,10570,5223,0.494,natural_disaster (Recovery),35,8346,8346,185458,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-08-20,11550,12091,1.0,none,25,5665,5665,244472,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-08-20,17461,11556,0.663,pandemic_closure (Recovery),16,9789,9789,1259247,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-08-20,7430,6271,0.792,trade_restrictions (Active),50,6763,6763,19700,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-08-27,10570,7296,0.662,natural_disaster (Recovery),33,9618,9618,183136,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-08-27,11550,11043,1.0,none,24,10754,10754,244761,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-08-27,17461,15094,0.831,pandemic_closure (Recovery),18,8191,8191,1266150,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-08-27,7430,6054,0.792,trade_restrictions (Active),47,5299,5299,20455,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-09-03,10570,8733,0.831,natural_disaster (Recovery),36,7789,7789,184080,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-09-03,11550,10755,1.0,none,25,9025,9025,246491,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-09-03,17461,16358,1.0,pandemic_closure (Recovery),17,8161,8161,1274347,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-09-03,7430,1448,0.189,"pandemic_closure (Active), trade_restrictions (Active)",73,11442,11442,10461,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-09-10,10570,9144,0.879,"geopolitical_tension (Active), natural_disaster (Recovery)",38,6026,6026,187198,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-09-10,11550,11817,1.0,none,27,6433,6433,251875,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-09-10,17461,17211,1.0,none,17,6404,6404,1285154,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-09-10,7430,1325,0.189,"logistics_bottleneck (Active), pandemic_closure (Active), trade_restrictions (Active)",70,11136,11136,650,0,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-09-17,10570,9539,0.879,geopolitical_tension (Active),44,7658,7658,189079,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-09-17,11550,12034,1.0,none,24,6095,6095,257814,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-09-17,17461,16537,1.0,none,19,7541,7541,1294150,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-09-17,7430,1331,0.189,"logistics_bottleneck (Active), pandemic_closure (Active), trade_restrictions (Active)",69,5796,1981,0,3815,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-09-24,10570,10209,0.94,geopolitical_tension (Recovery),36,6703,6703,192585,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-09-24,11550,11490,1.0,none,27,10463,10463,258841,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-09-24,17461,16456,1.0,none,18,7597,7597,1303009,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-09-24,7430,1694,0.206,"logistics_bottleneck (Recovery), pandemic_closure (Active), trade_restrictions (Recovery)",71,7079,1694,0,5385,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-10-01,10570,10442,1.0,geopolitical_tension (Recovery),32,7501,7501,195526,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-10-01,11550,12336,1.0,none,23,4815,4815,266362,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-10-01,17461,17058,1.0,none,17,7083,7083,1312984,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-10-01,7430,1593,0.222,"pandemic_closure (Active), trade_restrictions (Recovery)",72,5396,1593,0,3803,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-10-08,10570,10408,1.0,none,37,8404,8404,197530,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-10-08,11550,11644,1.0,none,29,6747,6747,271259,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-10-08,17461,16164,1.0,none,17,7209,7209,1321939,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-10-08,7430,1678,0.239,"pandemic_closure (Active), trade_restrictions (Recovery)",73,7243,1678,0,5565,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-10-15,10570,10907,1.0,none,33,6029,6029,202408,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-10-15,11550,8384,0.71,trade_restrictions (Active),43,6326,6326,273317,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-10-15,17461,10566,0.571,pandemic_closure (Active),47,9430,9430,1323075,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-10-15,7430,1753,0.239,pandemic_closure (Active),74,8071,1753,0,6318,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-10-22,10570,1134,0.109,natural_disaster (Active),61,10744,10744,192798,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-10-22,11550,7787,0.71,trade_restrictions (Active),37,6067,6067,275037,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-10-22,17461,9906,0.571,pandemic_closure (Active),52,6879,6879,1326102,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-10-22,7430,1691,0.239,pandemic_closure (Active),75,8136,1691,0,6445,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-10-29,10570,1146,0.109,natural_disaster (Active),61,6254,6254,187690,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-10-29,11550,8569,0.71,trade_restrictions (Active),41,10881,10881,272725,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-10-29,17461,10082,0.571,pandemic_closure (Active),51,9467,9467,1326717,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-10-29,7430,1623,0.239,pandemic_closure (Active),77,5552,1623,0,3929,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-11-05,10570,1143,0.109,natural_disaster (Active),59,8331,8331,180502,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-11-05,11550,7907,0.71,trade_restrictions (Active),41,3968,3968,276664,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-11-05,17461,10177,0.571,pandemic_closure (Active),47,6538,6538,1330356,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-11-05,7430,1811,0.239,pandemic_closure (Active),73,6797,1811,0,4986,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-11-12,10570,1219,0.109,natural_disaster (Active),61,9166,9166,172555,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-11-12,11550,7977,0.71,trade_restrictions (Active),40,5303,5303,279338,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-11-12,17461,9969,0.571,pandemic_closure (Active),51,11969,11969,1328356,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-11-12,7430,3351,0.429,pandemic_closure (Recovery),32,6941,3351,0,3590,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-11-19,10570,3097,0.287,natural_disaster (Recovery),33,7754,7754,167898,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-11-19,11550,8512,0.71,trade_restrictions (Active),39,9302,9302,278548,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-11-19,17461,9475,0.571,pandemic_closure (Active),46,5191,5191,1332640,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-11-19,7430,4417,0.619,pandemic_closure (Recovery),29,10084,4417,0,5667,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-11-26,10570,4913,0.465,natural_disaster (Recovery),36,10888,10888,161923,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-11-26,11550,7698,0.71,trade_restrictions (Active),40,5509,5509,280737,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-11-26,17461,9709,0.571,pandemic_closure (Active),49,5710,5710,1336639,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-11-26,7430,6150,0.81,pandemic_closure (Recovery),33,6671,6150,0,521,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-12-03,10570,6985,0.644,natural_disaster (Recovery),32,8758,8758,160150,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-12-03,11550,9727,0.807,trade_restrictions (Recovery),28,9743,9743,280721,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-12-03,17461,9954,0.571,pandemic_closure (Active),47,7160,7160,1339433,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-12-03,7430,2903,0.393,"pandemic_closure (Active), pandemic_closure (Recovery)",75,6256,2903,0,3353,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-12-10,10570,8178,0.822,natural_disaster (Recovery),33,4241,4241,164087,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-12-10,11550,10665,0.903,trade_restrictions (Recovery),24,6672,6672,284714,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-12-10,17461,11475,0.678,pandemic_closure (Recovery),15,5437,5437,1345471,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-12-10,7430,2560,0.393,pandemic_closure (Active),74,5450,2560,0,2890,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-12-17,10570,10022,1.0,natural_disaster (Recovery),32,7369,7369,166740,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-12-17,11550,11242,1.0,trade_restrictions (Recovery),27,9151,9151,286805,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-12-17,17461,11869,0.663,"pandemic_closure (Recovery), trade_restrictions (Active)",27,10095,10095,1347245,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-12-17,7430,3014,0.393,pandemic_closure (Active),74,4378,3014,0,1364,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-12-24,10570,11041,1.0,none,36,5776,5776,172005,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-12-24,11550,10760,1.0,none,27,6654,6654,290911,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-12-24,17461,13546,0.753,"pandemic_closure (Recovery), trade_restrictions (Active)",26,4548,4548,1356243,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-12-24,7430,2926,0.393,pandemic_closure (Active),75,8085,2926,0,5159,3532
+run_018,Foundry_Taiwan_A,Taiwan,Foundry,2023-12-31,10570,9601,1.0,none,35,5058,5058,176548,0,7640
+run_018,IDM_USA_B,USA,IDM,2023-12-31,11550,11107,1.0,none,24,6180,6180,295838,0,4749
+run_018,OSAT_Malaysia_C,Malaysia,OSAT,2023-12-31,17461,13856,0.844,"pandemic_closure (Recovery), trade_restrictions (Active)",26,4548,4548,1365551,0,8598
+run_018,Foundry_Germany_D,Germany,Foundry,2023-12-31,7430,3096,0.393,pandemic_closure (Active),73,7799,3096,0,4703,3532
