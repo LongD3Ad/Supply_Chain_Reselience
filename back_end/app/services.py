@@ -399,7 +399,8 @@ async def trigger_simulation_run(
 async def generate_simulation_recommendations(
     simulation_data: List[Dict[str, Any]],
     risk_summary: Optional[Dict[str, Any]] = None, # Accept risk context
-    market_data: Optional[Dict[str, Any]] = None # Accept market context
+    market_data: Optional[Dict[str, Any]] = None, # Accept market context
+    financial_summary: Optional[Dict[str, Any]] = None
 ) -> List[Dict[str, Any]]:
     """Enhanced recommendations including risk/market context."""
     if not RECOMMENDATIONS_AVAILABLE: raise HTTPException(status_code=501, detail="Rec engine not available.")
@@ -464,14 +465,27 @@ async def generate_simulation_recommendations(
              if risk_summary.get('risk_severity'):
                  context_parts.append("- Severity:")
                  for r, s in risk_summary['risk_severity'].items(): context_parts.append(f"  - {r}: {s:.1f}")
-        if market_data: # ... (Add market context - keep existing) ...
+        if market_data: 
              context_parts.append("\nMarket Context:")
-             for symbol, data in market_data.items():
-                  if data.get('values') and len(data.get('values',[]))>=2:
-                       change = ((data['values'][-1] / data['values'][0]) - 1.0) * 100 if data['values'][0]!=0 else 0
-                       trend = "increased" if change > 0 else "decreased"
-                       context_parts.append(f"- {symbol} {trend} by {abs(change):.1f}% over the period.")
+             for symbol, market_data_symbol_obj in market_data.items(): # Renamed 'data' to 'market_data_symbol_obj' for clarity
+                  # Access attributes directly using dot notation
+                  if hasattr(market_data_symbol_obj, 'values') and market_data_symbol_obj.values and len(market_data_symbol_obj.values) >= 2:
+                       # Ensure values are numbers before division
+                       try:
+                           start_val = float(market_data_symbol_obj.values[0])
+                           end_val = float(market_data_symbol_obj.values[-1])
+                           if start_val != 0:
+                               change = ((end_val / start_val) - 1.0) * 100
+                           else:
+                               change = float('inf') if end_val > 0 else (float('-inf') if end_val < 0 else 0) # Handle division by zero more gracefully
 
+                           trend = "increased" if change > 0.1 else ("decreased" if change < -0.1 else "stable") # Added a small threshold for "stable"
+                           context_parts.append(f"- {symbol} {trend} by {abs(change):.1f}% over the period.")
+                       except (ValueError, TypeError) as e:
+                           logging.warning(f"Could not process market data for {symbol} due to value error: {e}. Values: {market_data_symbol_obj.values}")
+                           context_parts.append(f"- {symbol}: Data format error.")
+                  else:
+                       context_parts.append(f"- {symbol}: Insufficient data.")
         # --- NEW: Add Financial Context ---
         if financial_summary:
             context_parts.append("\nSimulation Financial Impact:")

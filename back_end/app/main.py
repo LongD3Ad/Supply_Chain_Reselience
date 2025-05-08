@@ -114,7 +114,8 @@ async def get_recommendations_endpoint(request: models.RecommendationRequest): #
         recommendations_list = await services.generate_simulation_recommendations(
             simulation_data=request.simulation_data,
             risk_summary=request.risk_summary, # Pass context
-            market_data=request.market_data # Pass context
+            market_data=request.market_data, # Pass context
+            financial_summary=request.financial_summary
         )
         return models.RecommendationResponse(recommendations=recommendations_list)
     except Exception as e: logging.error(f"/get_recs error: {e}", exc_info=True); raise HTTPException(status_code=500, detail=f"Rec Gen Error: {e}")
