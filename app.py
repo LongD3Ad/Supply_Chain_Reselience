@@ -122,6 +122,7 @@ st.session_state.setdefault('override_base_logistics_cost_unit', None)
 st.session_state.setdefault('override_production_cost_unit', None)
 
 st.session_state.setdefault('fetched_market_data', None) # Cache fetched market data
+st.session_state.setdefault('pending_simulation_payload', None)
 
 # --- Helper Function to Toggle Chat Visibility ---
 def toggle_chat():
@@ -329,6 +330,74 @@ with chat_col:
         st.markdown("##### 🤖 AI Assistant")
         action_triggered = False # Flag used ONLY to trigger rerun AFTER chat input or button click
 
+        # --- V V V INSERT THE NEW PROCESSING BLOCK HERE V V V ---
+        # --- LOGIC TO EXECUTE PENDING SIMULATION ---
+        # This block will run on reruns if a simulation was triggered.
+        if st.session_state.get('pending_simulation_payload') is not None:
+            sim_payload_to_process = st.session_state.pending_simulation_payload
+            # Consume the trigger immediately to prevent re-execution if something fails before reset
+            st.session_state.pending_simulation_payload = None
+            action_triggered = True # Ensure UI updates after processing
+
+            sim_endpoint = f"{BACKEND_URL}/run_simulation"
+            # Retrieve market_data from the payload if it was stored there
+            market_data_from_payload = sim_payload_to_process.get("market_data") 
+
+            # Display spinner while processing
+            with st.spinner("Simulation in progress... Fetching recommendations... Please wait."):
+                try:
+                    logging.info(f"Processing pending simulation. Sending sim request: { {k:v for k,v in sim_payload_to_process.items() if k != 'market_data' or v is not None} }") # Log carefully
+                    response = requests.post(sim_endpoint, json=sim_payload_to_process, timeout=240)
+                    response.raise_for_status()
+                    sim_data = response.json()
+
+                    st.session_state.simulation_plot_data = sim_data.get('timeseries_data')
+                    st.session_state.simulation_results_for_rec = sim_data.get('full_simulation_data')
+                    st.session_state.simulation_risk_summary = sim_data.get('risk_summary')
+                    st.session_state.financial_summary_from_sim = sim_data.get('financial_summary')
+
+                    if st.session_state.simulation_results_for_rec:
+                        rec_endpoint = f"{BACKEND_URL}/get_simulation_recommendations"
+                        rec_request_payload = {
+                            "simulation_data": st.session_state.simulation_results_for_rec,
+                            "risk_summary": st.session_state.simulation_risk_summary,
+                            "market_data": market_data_from_payload, # Use market data passed with sim payload
+                            "financial_summary": st.session_state.financial_summary_from_sim
+                        }
+                        logging.info(f"Sending rec request. Payload keys: {rec_request_payload.keys()}")
+                        rec_response = requests.post(rec_endpoint, json=rec_request_payload, timeout=120)
+                        rec_response.raise_for_status()
+                        recs = rec_response.json().get("recommendations", [])
+                        st.session_state.recommendations_from_sim = recs
+
+                        # Update chat and prepare modal
+                        st.session_state.messages.append({"role":"assistant", "content": f"✅ Simulation complete! Found {len(recs)} recommendations. Results ready."})
+                        st.session_state.show_sim_modal = True
+                    else:
+                        st.session_state.messages.append({"role":"assistant", "content": f"⚠️ Simulation run incomplete or produced no data for analysis."})
+                        if st.session_state.simulation_plot_data or st.session_state.financial_summary_from_sim or st.session_state.simulation_risk_summary:
+                            st.session_state.show_sim_modal = True
+                        else:
+                            st.warning("Simulation did not return any displayable data.")
+
+                except Exception as e:
+                    error_msg = f"**Simulation/Recommendation Error:** {str(e)}"
+                    logging.error(f"Sim or Rec API call error during pending execution: {e}", exc_info=True)
+                    st.session_state.messages.append({"role":"assistant", "content": error_msg})
+                    # Clear potentially incomplete results
+                    st.session_state.simulation_plot_data = None
+                    st.session_state.simulation_results_for_rec = None
+                    st.session_state.simulation_risk_summary = None
+                    st.session_state.financial_summary_from_sim = None
+                    st.session_state.recommendations_from_sim = None
+                    st.session_state.show_sim_modal = False
+            
+            # If modal needs to show, or any other major UI update from this block, a rerun is essential.
+            # The action_triggered flag handled by the end of chat_col will manage this.
+            # Or, if modal needs to pop up immediately without waiting for chat input or other button:
+            if st.session_state.get("show_sim_modal"):
+                 st.rerun() # This ensures the modal dialog logic is triggered.
+
         # --- Simulation Setup & Actions ---
         st.markdown("---")
         st.markdown("**Simulation Setup**")
@@ -407,20 +476,19 @@ with chat_col:
         st.markdown("---")
 
         # Run Simulation Button
-        if st.button("▶️ Run Parameterized Sim", key="side_run_param_sim_v3", use_container_width=True, help="Run simulation with selected risks and costs"):
-            action_triggered = True # Trigger rerun
-            sim_endpoint = f"{BACKEND_URL}/run_simulation"
-            # Clear previous results
+        if st.button("▶️ Run Parameterized Sim", key="side_run_param_sim_v3_fixed", use_container_width=True, help="Run simulation with selected risks and costs"):
+            action_triggered = True 
+            
+            # Clear previous results from session state
             st.session_state.simulation_plot_data = None
             st.session_state.simulation_results_for_rec = None
             st.session_state.simulation_risk_summary = None
             st.session_state.financial_summary_from_sim = None
             st.session_state.recommendations_from_sim = None
-            st.session_state.show_sim_modal = False # Ensure modal is closed before rerunning
+            st.session_state.show_sim_modal = False # Ensure modal is reset
 
             # --- Gather Cost Overrides for Payload ---
             cost_overrides_payload = {}
-            # Only include keys where input was successfully parsed to float (is not None and not a string)
             if isinstance(st.session_state.override_holding_cost_unit_weekly, float):
                  cost_overrides_payload["holding_cost_unit_weekly"] = st.session_state.override_holding_cost_unit_weekly
             if isinstance(st.session_state.override_stockout_cost_unit, float):
@@ -429,24 +497,26 @@ with chat_col:
                  cost_overrides_payload["base_logistics_cost_unit"] = st.session_state.override_base_logistics_cost_unit
             if isinstance(st.session_state.override_production_cost_unit, float):
                  cost_overrides_payload["production_cost_unit"] = st.session_state.override_production_cost_unit
-
-            # Pass None if the overrides dict is empty, matching the Optional[CostParameters] model
             cost_overrides_for_request = cost_overrides_payload if cost_overrides_payload else None
 
-            # --- Prepare Simulation Request Payload (Include cost overrides, risks, severity, market data) ---
-            # Market data is assumed to be fetched via the News/Analyze Risks button and stored
+            # Get market data (which should have been fetched by its own button and stored in session state)
             market_data_for_sim = st.session_state.get("fetched_market_data")
 
+            # Prepare the simulation request payload
             sim_request_payload = {
                 "risk_events": selected_risks_for_sim,
-                "risk_severity": risk_severity_for_sim, # Pass the severity dict
+                "risk_severity": risk_severity_for_sim, 
                 "cost_overrides": cost_overrides_for_request,
-                "market_data": market_data_for_sim # Include market data if available
+                "market_data": market_data_for_sim 
             }
 
-            # Add a message to the chat history indicating sim started
-            st.session_state.messages.append({"role":"assistant", "content":f"⏳ Running simulation with selected parameters..."})
-            # Rerun immediately to show the spinner and message while the backend works
+            # Set the payload in session_state to be processed on the next rerun
+            st.session_state.pending_simulation_payload = sim_request_payload
+            
+            # Add a message to the chat history indicating sim is queued
+            st.session_state.messages.append({"role":"assistant", "content":f"⏳ Queued simulation with selected parameters. Processing shortly..."})
+            
+            # Rerun to show the "Queued..." message and to trigger the pending simulation logic block
             st.rerun()
 
             # --- AFTER RERUN: Make the Backend Calls ---
